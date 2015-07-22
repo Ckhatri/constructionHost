@@ -1,0 +1,276 @@
+@white: #FAFAFA;
+@skyblue: #E3F2FD;
+@black: #121509;
+@yellow: #FBB733;
+@blue: #4F646F;
+
+
+body {
+
+	background-color: @white;
+	.vertical-align {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	hr {
+		width: 10%;
+		border: 1px solid @yellow;
+	}
+
+	header {
+		width: 100%;
+		.container {
+			.row {
+				padding-top: 15px;
+				padding-bottom: 15px;
+
+				h1 {
+					display: inline;
+				}
+
+				.menu {
+					ul {
+						list-style-type: none;
+						a {
+							color: inherit !important;
+							text-decoration: none !important;
+						}
+						li {
+							display: inline;
+							margin-left: 10px;
+							margin-right: 10px;
+							&:hover {
+								cursor: pointer;
+							}
+						}
+
+						.active {
+							color: @yellow;
+						}
+					}
+
+				}
+			}
+		}
+	}
+	#mastHead {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 700px;
+		background: url('../img/clouds.jpeg') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.mast {
+			position: relative;
+			color: @blue;
+			height: 100%;
+			.row {
+				height: 100%;
+			}
+
+			.vertical-align {
+			  display: flex;
+			  align-items: center;
+			  flex-direction: row;
+			}
+
+			h1 {
+				font-size: 4em;
+			}
+
+			p {
+				font-size: 2em;
+			}
+			span {
+				color: @yellow;
+			}
+
+			button {
+				background-color: @blue;
+				color: @yellow;
+				border-radius: 0px;
+			}
+		}
+	}
+
+	#who {
+		.container-fluid {
+			.row {
+				height: 500px;
+				h1 {
+					font-size: 3em;
+					color: @yellow;
+				}
+				h2 {
+					font-size: 2em
+				}
+
+				button {
+					margin-top: 15px;
+					background-color: @yellow;
+					border-radius: 0px;
+				}
+			}
+		}
+	}
+
+	#process {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 500px;
+		padding-bottom: 100px;
+		background: url('../img/clouds.jpeg') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.row {
+			height: 100%;
+		}
+
+		.processBox {
+			margin-bottom: 50px;
+			height: 100px;
+
+			h1 {
+				font-size: 3em;
+				color: @yellow;
+				span {
+					color: @blue;
+				}
+			}
+
+			p {
+				font-size: 1em;
+			}
+		}
+	}
+
+	#review {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		height: auto;
+		padding-bottom: 100px;
+		background: url('../img/clouds.jpeg') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.container {
+			height: 500px;
+		}
+		.row {
+			height: 100%;
+		}
+	}
+	#offer {
+		.container {
+			height: auto;
+			.row {
+				h1 {
+					font-size: 3em;
+					color: @yellow;
+				}
+				p {
+					font-size: 1.1em
+				}
+
+			}
+
+			img {
+				width: 100%;
+			}
+			.top {
+				margin-top: 25px;
+			}
+
+		.infobox {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			height: auto;
+
+			i {
+				color: @blue;
+			}
+		}
+
+		}
+	}
+
+	#projects {
+		padding-right: 0;
+		padding-left: 0;
+		background-color: @blue;
+		img {
+			width: 100%;
+			border: 3px solid @blue;
+		}
+	}
+	footer {
+		padding-top: 10px;
+		background-color: @black;
+		height: auto;
+		color: @white;
+
+		i {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		a {
+			color: inherit;
+		}
+
+	}
+
+	#contact {
+		height: 400px;
+		.container {
+			height: 100%;
+		}
+
+		.row {
+			height: 100%;
+		}
+	}
+
+	#map {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	#form {
+		.container-fluid {
+			.row {
+				height: 500px;
+				font-size: 2em;
+				h1 {
+					font-size: 3em;
+					color: @yellow;
+				}
+				h2 {
+					font-size: 2em
+				}
+
+				button {
+					margin-top: 15px;
+					background-color: @yellow;
+					border-radius: 0px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,217 @@
+body {
+  background-color: #fafafa;
+}
+body .vertical-align {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body hr {
+  width: 10%;
+  border: 1px solid #fbb733;
+}
+body header {
+  width: 100%;
+}
+body header .container .row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body header .container .row h1 {
+  display: inline;
+}
+body header .container .row .menu ul {
+  list-style-type: none;
+}
+body header .container .row .menu ul a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+body header .container .row .menu ul li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body header .container .row .menu ul li:hover {
+  cursor: pointer;
+}
+body header .container .row .menu ul .active {
+  color: #fbb733;
+}
+body #mastHead {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 700px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #mastHead .mast {
+  position: relative;
+  color: #4f646f;
+  height: 100%;
+}
+body #mastHead .mast .row {
+  height: 100%;
+}
+body #mastHead .mast .vertical-align {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body #mastHead .mast h1 {
+  font-size: 4em;
+}
+body #mastHead .mast p {
+  font-size: 2em;
+}
+body #mastHead .mast span {
+  color: #fbb733;
+}
+body #mastHead .mast button {
+  background-color: #4f646f;
+  color: #fbb733;
+  border-radius: 0px;
+}
+body #who .container-fluid .row {
+  height: 500px;
+}
+body #who .container-fluid .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #who .container-fluid .row h2 {
+  font-size: 2em;
+}
+body #who .container-fluid .row button {
+  margin-top: 15px;
+  background-color: #fbb733;
+  border-radius: 0px;
+}
+body #process {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 500px;
+  padding-bottom: 100px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #process .row {
+  height: 100%;
+}
+body #process .processBox {
+  margin-bottom: 50px;
+  height: 100px;
+}
+body #process .processBox h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #process .processBox h1 span {
+  color: #4f646f;
+}
+body #process .processBox p {
+  font-size: 1em;
+}
+body #review {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 100px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #review .container {
+  height: 500px;
+}
+body #review .row {
+  height: 100%;
+}
+body #offer .container {
+  height: auto;
+}
+body #offer .container .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #offer .container .row p {
+  font-size: 1.1em;
+}
+body #offer .container img {
+  width: 100%;
+}
+body #offer .container .top {
+  margin-top: 25px;
+}
+body #offer .container .infobox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+body #offer .container .infobox i {
+  color: #4f646f;
+}
+body #projects {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #4f646f;
+}
+body #projects img {
+  width: 100%;
+  border: 3px solid #4f646f;
+}
+body footer {
+  padding-top: 10px;
+  background-color: #121509;
+  height: auto;
+  color: #fafafa;
+}
+body footer i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body footer a {
+  color: inherit;
+}
+body #contact {
+  height: 400px;
+}
+body #contact .container {
+  height: 100%;
+}
+body #contact .row {
+  height: 100%;
+}
+body #map {
+  width: 100%;
+}
+body #map img {
+  width: 100%;
+}
+body #form .container-fluid .row {
+  height: 500px;
+  font-size: 2em;
+}
+body #form .container-fluid .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #form .container-fluid .row h2 {
+  font-size: 2em;
+}
+body #form .container-fluid .row button {
+  margin-top: 15px;
+  background-color: #fbb733;
+  border-radius: 0px;
+}
